@@ -40,3 +40,4 @@ basic Python, functions, and the NumPy material (arrays, shapes, slicing, ...).
    where n is the length of signal, and take the average of those values.
    Return a new 1-D NumPy array of floats with the same length as signal.
 
+  np.set_printoptions(formatter={'float': '{:.1f}'.format})
